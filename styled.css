@@ -1,0 +1,66 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#00ffff),url("logo.jpeg");
+    background-size:cover;
+    background-position: center;
+   height: 200vh;
+}
+.logod{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 0.5%;
+    left: 1%;    
+    
+}
+.banner-text{
+    text-align:center;
+    color: #fff;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'kaushans script', cursive;
+    
+}
+.banner-text p{
+    font-size: 70px;
+    color: #800000;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+    
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #ff00ff;
+    position: relative;
+    z-index: 1;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background #fff;
+    z-index: _1;
+    transition: 1s;
+    
+}
+.banner-btn a:hover span{
+     width: 100%;
+    
+}
